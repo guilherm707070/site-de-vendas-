@@ -12,7 +12,7 @@ let firstPosition =0
 let lastPosition = item.length-1
 
 preveButton.onclick = () =>{
-    list.style.setProperty("--calculetion", -1)
+   /*  list.style.setProperty("--calculetion", -1) */
     active = active - 1 <firstPosition? lastPosition :active -1
     setEslaider()
     item [active].classList.add('acttive')
@@ -22,7 +22,7 @@ preveButton.onclick = () =>{
 
 nexteButton.onclick = () =>{
    
-    list.style.setProperty("--calculetion", 1)
+    /* list.style.setProperty("--calculetion", 1) */
     active = active + 1 >lastPosition?0:active+1
     setEslaider()
     item [active].classList.add('acttive')
